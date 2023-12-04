@@ -36,3 +36,29 @@ for you).
 
 Just for clarification, an item can never have its Quality increase above 50, however "Sulfuras" is a
 legendary item and as such its Quality is 80 and it never alters.
+
+------
+
+# Explore how items alter over time
+
+* **Run the TextTest Fixture from Command-Line**
+
+```
+./gradlew -q text
+```
+
+* **Specify Number of Days**  
+_For example 10 days_
+* 
+```
+./gradlew -q text --args 10
+```
+
+------
+
+# Build from the command line
+
+To build the project and run the Java tests:
+```
+./mvnw clean verify
+```
